@@ -1,0 +1,29 @@
+Our Behaviours as 8 bits:
+
+	Seek = 00000001 (1)
+	Wander = 00000010 (2)
+	Flee = 00000100 (4)
+	Evade = 00001000 (8)
+	Pursue = 00010000 (16)
+
+A test is true if we AND our mask(test) to our record of behaviours and get greater than 0
+
+
+Solo demo:
+	uiIsBehaviour = 00001000 (8) [Evade]
+
+	Seek & uiIsBehaviour = 0 FALSE
+	Wander & uiIsBehaviour = 0 FALSE
+	Flee & uiIsBehaviour = 0 FALSE
+	Evade & uiIsBehaviour = 8 TRUE
+	Pursue & uiIsBehaviour = 0 FALSE
+
+Multiple demo:
+	uiIsBehaviour = 00001001 (8) [Seek and evade]
+
+	Seek & uiIsBehaviour = 1 TRUE
+	Wander & uiIsBehaviour = 0 FALSE
+	Flee & uiIsBehaviour = 0 FALSE
+	Evade & uiIsBehaviour = 8 TRUE
+	Pursue & uiIsBehaviour = 0 FALSE
+

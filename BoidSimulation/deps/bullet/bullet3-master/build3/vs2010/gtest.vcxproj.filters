@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{F1BC4024-ED88-7244-A213-C83D71DC804C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\gtest-1.7.0">
+      <UniqueIdentifier>{6D74FF7A-A767-7D41-8488-833F209C6290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\gtest-1.7.0\src">
+      <UniqueIdentifier>{20F9C11F-E21D-1845-A2FA-4E8C33077BC5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\test\gtest-1.7.0\src\gtest-all.cc">
+      <Filter>test\gtest-1.7.0\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

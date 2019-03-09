@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Extras">
+      <UniqueIdentifier>{AC3592A0-CDF9-9743-95ED-2E8F2E14A3D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extras\Serialize">
+      <UniqueIdentifier>{48125056-A740-F545-89D0-C509D0C87B49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extras\Serialize\BulletXmlWorldImporter">
+      <UniqueIdentifier>{22D27ED3-CFAA-0146-BE6A-B6DD455BF2D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples">
+      <UniqueIdentifier>{F063F11B-5600-A647-98BB-12ADC1E8E13B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ThirdPartyLibs">
+      <UniqueIdentifier>{551B96F0-6F5E-E946-BBD3-BC7FA07E4647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ThirdPartyLibs\tinyxml2">
+      <UniqueIdentifier>{EE8C3C42-1AAE-BC40-94E8-9BF4B1752A2D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Extras\Serialize\BulletXmlWorldImporter\btBulletXmlWorldImporter.h">
+      <Filter>Extras\Serialize\BulletXmlWorldImporter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Extras\Serialize\BulletXmlWorldImporter\string_split.h">
+      <Filter>Extras\Serialize\BulletXmlWorldImporter</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Extras\Serialize\BulletXmlWorldImporter\btBulletXmlWorldImporter.cpp">
+      <Filter>Extras\Serialize\BulletXmlWorldImporter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Extras\Serialize\BulletXmlWorldImporter\string_split.cpp">
+      <Filter>Extras\Serialize\BulletXmlWorldImporter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\ThirdPartyLibs\tinyxml2\tinyxml2.cpp">
+      <Filter>examples\ThirdPartyLibs\tinyxml2</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

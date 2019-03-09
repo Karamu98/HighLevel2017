@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Extras">
+      <UniqueIdentifier>{FAC59858-47E7-E248-949D-5CBAD15A59BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extras\VHACD">
+      <UniqueIdentifier>{22CEB001-8E25-DE42-9E28-E1977A872369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extras\VHACD\src">
+      <UniqueIdentifier>{0962B254-3D21-A441-A576-17EEA7C4CBAB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Extras\VHACD\src\btAlignedAllocator.cpp">
+      <Filter>Extras\VHACD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Extras\VHACD\src\btConvexHullComputer.cpp">
+      <Filter>Extras\VHACD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Extras\VHACD\src\VHACD.cpp">
+      <Filter>Extras\VHACD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Extras\VHACD\src\vhacdICHull.cpp">
+      <Filter>Extras\VHACD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Extras\VHACD\src\vhacdManifoldMesh.cpp">
+      <Filter>Extras\VHACD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Extras\VHACD\src\vhacdMesh.cpp">
+      <Filter>Extras\VHACD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Extras\VHACD\src\vhacdVolume.cpp">
+      <Filter>Extras\VHACD\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

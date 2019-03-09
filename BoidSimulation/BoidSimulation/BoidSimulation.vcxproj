@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{A4A01335-6B75-4AC9-B667-0856D09B6F33}</ProjectGuid>
+    <RootNamespace>BoidSimulation</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)deps\fmod\inc;$(IncludePath)</IncludePath>
+    <SourcePath>$(IncludePath);$(SourcePath)</SourcePath>
+    <LibraryPath>$(SolutionDir)deps\fmod\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(IncludePath)</IncludePath>
+    <SourcePath>$(IncludePath);$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)framework/include/;$(SolutionDir)BoidSimulation/Include;$(SolutionDir)deps/glew-2.0.0/include/;$(SolutionDir)deps/imgui/include;$(SolutionDir)deps/glfw/include/GLFW/;$(SolutionDir)deps/glm/;$(SolutionDir)md5_loader/include/;$(SolutionDir)deps/bullet/bullet3-master\src</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)framework/include/;$(SolutionDir)BoidSimulation/Include;$(SolutionDir)deps/glew-2.0.0/include/;$(SolutionDir)deps/imgui/include;$(SolutionDir)deps/glfw/include/GLFW/;$(SolutionDir)deps/glm/;$(SolutionDir)md5_loader/include/;$(SolutionDir)deps/bullet/bullet3-master\src</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>fmodL64_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)framework/include/;$(SolutionDir)BoidSimulation/Include;$(SolutionDir)deps/glew-2.0.0/include/;$(SolutionDir)deps/imgui/include;$(SolutionDir)deps/glfw/include/GLFW/;$(SolutionDir)deps/glm/;$(SolutionDir)md5_loader/include/;$(SolutionDir)deps/bullet/bullet3-master\src</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)framework/include/;$(SolutionDir)BoidSimulation/Include;$(SolutionDir)deps/glew-2.0.0/include/;$(SolutionDir)deps/imgui/include;$(SolutionDir)deps/glfw/include/GLFW/;$(SolutionDir)deps/glm/;$(SolutionDir)md5_loader/include/;$(SolutionDir)deps/bullet/bullet3-master\src</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\deps\bullet\cmakebuild\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>{769fd578-995e-331e-acd0-3520ace0f759}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\deps\bullet\cmakebuild\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>{cfa12eb1-88f4-3bf3-8561-3bade87f7ae4}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\deps\bullet\cmakebuild\src\LinearMath\LinearMath.vcxproj">
+      <Project>{7b5434d9-32d2-3602-9333-06949c2368d5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\framework\framework.vcxproj">
+      <Project>{473f1220-17d6-4b43-bf91-9f839980f0a3}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\md5_loader\MD5_Loader.vcxproj">
+      <Project>{95d4e80f-dac8-4cf2-ba67-b082d153d8f3}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\deps\imgui\include\imconfig.h" />
+    <ClInclude Include="..\deps\imgui\include\imgui.h" />
+    <ClInclude Include="..\deps\imgui\include\imgui_impl_glfw_gl3.h" />
+    <ClInclude Include="..\deps\imgui\include\imgui_internal.h" />
+    <ClInclude Include="Include\BoxColliderComponent.h" />
+    <ClInclude Include="Include\BrainComponent.h" />
+    <ClInclude Include="Include\CameraComponent.h" />
+    <ClInclude Include="Include\Component.h" />
+    <ClInclude Include="Include\Constants.h" />
+    <ClInclude Include="Include\Boid.h" />
+    <ClInclude Include="Include\Container.h" />
+    <ClInclude Include="Include\Entity.h" />
+    <ClInclude Include="Include\Game.h" />
+    <ClInclude Include="Include\ModelComponent.h" />
+    <ClInclude Include="Include\Player.h" />
+    <ClInclude Include="Include\RidgedbodyComponent.h" />
+    <ClInclude Include="Include\TransformComponent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\deps\imgui\source\imgui.cpp" />
+    <ClCompile Include="..\deps\imgui\source\imgui_demo.cpp" />
+    <ClCompile Include="..\deps\imgui\source\imgui_draw.cpp" />
+    <ClCompile Include="..\deps\imgui\source\imgui_impl_glfw_gl3.cpp" />
+    <ClCompile Include="Include\Player.cpp" />
+    <ClCompile Include="Source\BoxColliderComponent.cpp" />
+    <ClCompile Include="Source\BrainComponent.cpp" />
+    <ClCompile Include="Source\CameraComponent.cpp" />
+    <ClCompile Include="Source\Component.cpp" />
+    <ClCompile Include="Source\Boid.cpp" />
+    <ClCompile Include="Source\Container.cpp" />
+    <ClCompile Include="Source\Entity.cpp" />
+    <ClCompile Include="Source\Game.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\ModelComponent.cpp" />
+    <ClCompile Include="Source\RidgedbodyComponent.cpp" />
+    <ClCompile Include="Source\TransformComponent.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

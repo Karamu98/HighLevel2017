@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\test\InverseDynamics\test_invdyn_bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Utils\b3ResourcePath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportURDFDemo\UrdfParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\stb_image\stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Utils\b3Clock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\Extras\Serialize\BulletWorldImporter\btBulletWorldImporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\Extras\Serialize\BulletFileLoader\bChunk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\Extras\Serialize\BulletFileLoader\bFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\Extras\Serialize\BulletFileLoader\bDNA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\Extras\Serialize\BulletFileLoader\btBulletFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\tinyxml\tinystr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\tinyxml\tinyxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\tinyxml\tinyxmlerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\tinyxml\tinyxmlparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportURDFDemo\ConvertRigidBodies2MultiBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportURDFDemo\MultiBodyCreationInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportURDFDemo\BulletUrdfImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportURDFDemo\UrdfParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportURDFDemo\URDF2Bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportURDFDemo\URDFImporterInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportURDFDemo\URDFJointTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportSTLDemo\ImportSTLSetup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportSTLDemo\LoadMeshFromSTL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportColladaDemo\ColladaGraphicsInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F78978F8-CB4F-3688-9123-924AD3637A74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A23545A3-65E7-3690-BC37-E1BE02036A9D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C9E86F0F-4258-32EF-A8A9-51FD2FBA31D7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\BasicDemo\AppBasicExampleGui.vcxproj">
+      <Project>{8D16530D-5878-3FE9-AA3D-E9B966E0CAEE}</Project>
+      <Name>AppBasicExampleGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\BasicDemo\App_BasicExample.vcxproj">
+      <Project>{0F35D825-099A-3C9F-8D9C-67294DA8B1F3}</Project>
+      <Name>App_BasicExample</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\ExampleBrowser\App_ExampleBrowser.vcxproj">
+      <Project>{2EB2DA2E-F321-39EE-BE49-5B388C2E122C}</Project>
+      <Name>App_ExampleBrowser</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\HelloWorld\App_HelloWorld.vcxproj">
+      <Project>{4AC3CC35-9ECB-38EB-9F85-D31AFF2F545F}</Project>
+      <Name>App_HelloWorld</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\SharedMemory\App_PhysicsServer_SharedMemory.vcxproj">
+      <Project>{E5F6C9EF-55E8-3E2B-9439-A3B97B1F723C}</Project>
+      <Name>App_PhysicsServer_SharedMemory</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\SharedMemory\App_PhysicsServer_SharedMemory_GUI.vcxproj">
+      <Project>{2FB473E5-725C-3AB6-8925-7FB71112441A}</Project>
+      <Name>App_PhysicsServer_SharedMemory_GUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\SharedMemory\App_PhysicsServer_SharedMemory_VR.vcxproj">
+      <Project>{EE8A791B-9680-3E6B-88AB-9303EB9A4362}</Project>
+      <Name>App_PhysicsServer_SharedMemory_VR</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\RobotSimulator\App_RobotSimulator.vcxproj">
+      <Project>{1F89C374-84A2-3532-8EFC-C510786EF8E8}</Project>
+      <Name>App_RobotSimulator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\Extras\obj2sdf\App_obj2sdf.vcxproj">
+      <Project>{CC3DB89C-7D9F-3831-902B-1A89F18FF0AA}</Project>
+      <Name>App_obj2sdf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\src\Bullet3Serialize\Bullet2FileLoader\Bullet2FileLoader.vcxproj">
+      <Project>{D79CA499-C3DB-38DD-A29C-354238C4F2D6}</Project>
+      <Name>Bullet2FileLoader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\src\Bullet3Collision\Bullet3Collision.vcxproj">
+      <Project>{709A7857-D3FB-3429-8102-9B398A8F40C5}</Project>
+      <Name>Bullet3Collision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\src\Bullet3Common\Bullet3Common.vcxproj">
+      <Project>{8D87801B-E368-319F-B7DE-6236774EFC1E}</Project>
+      <Name>Bullet3Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\src\Bullet3Dynamics\Bullet3Dynamics.vcxproj">
+      <Project>{2462B98B-CE6D-3A1A-AC2A-3BE74DD2DF17}</Project>
+      <Name>Bullet3Dynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\src\Bullet3Geometry\Bullet3Geometry.vcxproj">
+      <Project>{9CCE9D3A-1DC6-3B20-A856-019C36DEFA26}</Project>
+      <Name>Bullet3Geometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\src\Bullet3OpenCL\Bullet3OpenCL_clew.vcxproj">
+      <Project>{F13CADC4-AA7E-3FB5-B89E-7E44BCC1DCFE}</Project>
+      <Name>Bullet3OpenCL_clew</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>{4904A756-AE55-304C-99AE-34BDC28D2CD1}</Project>
+      <Name>BulletCollision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>{64124C5F-0D2A-3421-93C0-5048E6787B47}</Project>
+      <Name>BulletDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\ExampleBrowser\BulletExampleBrowserLib.vcxproj">
+      <Project>{01E214FA-1856-3890-BCB6-8B50F84C4612}</Project>
+      <Name>BulletExampleBrowserLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\Extras\Serialize\BulletFileLoader\BulletFileLoader.vcxproj">
+      <Project>{B6B7C302-72BF-3259-AF1E-128FCA2EB391}</Project>
+      <Name>BulletFileLoader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\src\BulletInverseDynamics\BulletInverseDynamics.vcxproj">
+      <Project>{B4E7DD47-8601-3D36-ADF5-0ACB62BD3BDE}</Project>
+      <Name>BulletInverseDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\Extras\InverseDynamics\BulletInverseDynamicsUtils.vcxproj">
+      <Project>{0F91EF27-E862-3749-9F3C-89623A7EF965}</Project>
+      <Name>BulletInverseDynamicsUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\Extras\BulletRobotics\BulletRobotics.vcxproj">
+      <Project>{F2510AE0-85BE-3041-9BD7-5134F50195D5}</Project>
+      <Name>BulletRobotics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\src\BulletSoftBody\BulletSoftBody.vcxproj">
+      <Project>{19309AC5-86D2-393C-8824-9DE193EDC4A9}</Project>
+      <Name>BulletSoftBody</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\Extras\Serialize\BulletWorldImporter\BulletWorldImporter.vcxproj">
+      <Project>{B9AD5BA9-32AA-3542-9125-B452F333E565}</Project>
+      <Name>BulletWorldImporter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\Extras\Serialize\BulletXmlWorldImporter\BulletXmlWorldImporter.vcxproj">
+      <Project>{0EA0D88C-577D-3D09-AA65-686F60FDB36E}</Project>
+      <Name>BulletXmlWorldImporter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\ThirdPartyLibs\BussIK\BussIK.vcxproj">
+      <Project>{ADFC1ED2-E73A-3B83-8434-9BF8D56CB5AD}</Project>
+      <Name>BussIK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\Extras\ConvexDecomposition\ConvexDecomposition.vcxproj">
+      <Project>{41D724ED-D8EE-3626-B237-8384E6837007}</Project>
+      <Name>ConvexDecomposition</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\Extras\GIMPACTUtils\GIMPACTUtils.vcxproj">
+      <Project>{A860BF05-06A4-351A-ABF0-EA633C5DA0B6}</Project>
+      <Name>GIMPACTUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\Extras\HACD\HACD.vcxproj">
+      <Project>{1394E2E9-502F-320B-9AF6-E310952EB137}</Project>
+      <Name>HACD</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\src\LinearMath\LinearMath.vcxproj">
+      <Project>{4D3A6EC9-C5CF-35AA-9355-5E1CDB2CDD89}</Project>
+      <Name>LinearMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\OpenGLWindow\OpenGLWindow.vcxproj">
+      <Project>{A398A037-02AC-372A-9785-9A104E806ED9}</Project>
+      <Name>OpenGLWindow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\test\BulletDynamics\pendulum\Test_BulletDynamics.vcxproj">
+      <Project>{4F121AF8-1DEE-3D09-89C0-F563C19CCB09}</Project>
+      <Name>Test_BulletDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\test\InverseDynamics\Test_BulletInverseDynamics.vcxproj">
+      <Project>{CC2FE64F-1281-3B69-A152-76BD279B24C8}</Project>
+      <Name>Test_BulletInverseDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\test\InverseDynamics\Test_BulletInverseDynamicsJacobian.vcxproj">
+      <Project>{107C56FD-477C-3449-BEA1-287FB1D6FFBE}</Project>
+      <Name>Test_BulletInverseDynamicsJacobian</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\test\InverseDynamics\Test_BulletInverseForwardDynamics.vcxproj">
+      <Project>{451E10D1-7556-3BC9-B7E7-3738E43E3147}</Project>
+      <Name>Test_BulletInverseForwardDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\test\collision\Test_Collision.vcxproj">
+      <Project>{79CC536F-F6B3-3ACD-A5C8-AB9E4573AE6D}</Project>
+      <Name>Test_Collision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\test\SharedMemory\Test_PhysicsClientServer.vcxproj">
+      <Project>{4D120852-9441-3A39-9D2B-E135A69438E4}</Project>
+      <Name>Test_PhysicsClientServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\test\BulletDynamics\Test_btKinematicCharacterController.vcxproj">
+      <Project>{840F51B3-396F-3418-BF3C-66BE91BB6C1C}</Project>
+      <Name>Test_btKinematicCharacterController</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\ThirdPartyLibs\clsocket\clsocket.vcxproj">
+      <Project>{54B9CEA0-038D-331B-A551-06E821D18448}</Project>
+      <Name>clsocket</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\test\gtest-1.7.0\gtest.vcxproj">
+      <Project>{DB47AF2B-A8AA-3367-BD9F-F5F3E9ED60F1}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\ThirdPartyLibs\Gwen\gwen.vcxproj">
+      <Project>{43F633F7-E681-3BDD-8CAB-33BCC8735EC4}</Project>
+      <Name>gwen</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

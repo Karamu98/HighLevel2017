@@ -1,0 +1,3 @@
+- Need to abstract playing models from the brain component (Get model component, test for a walk animation, play) instead of SetCurrentAnim("Walk") in brain comp
+- Velocity could be stored in the Transform component instead of Brain component (So brain comp can evade things entities without brains e.g. moving physics objects)
+- Figure out how to properly recalculate transform up and right using forward

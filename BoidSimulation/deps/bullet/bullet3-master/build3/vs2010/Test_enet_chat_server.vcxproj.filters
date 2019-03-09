@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{DF26E0A5-6DAA-A44F-A881-D8AD8734812B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\enet">
+      <UniqueIdentifier>{5F6C039C-9FEC-0744-8C60-99D3B6498701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\enet\chat">
+      <UniqueIdentifier>{CF489D7B-BA53-FE42-9C66-C48051261C85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\enet\chat\server">
+      <UniqueIdentifier>{EDBDFAA5-9FD1-CF40-87F5-38C3C346367D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\test\enet\chat\server\main.cpp">
+      <Filter>test\enet\chat\server</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{793B9A8C-CD29-3152-927B-C4E09268D409}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>App_TwoJoint</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\TwoJoint\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">App_TwoJoint.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">App_TwoJoint_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\TwoJoint\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">App_TwoJoint.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">App_TwoJoint</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\TwoJoint\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">App_TwoJoint.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">App_TwoJoint</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\TwoJoint\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">App_TwoJoint.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">App_TwoJoint</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\enet\include;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\clsocket\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;BT_ENABLE_CLSOCKET;BT_ENABLE_ENET;GLEW_STATIC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;BT_ENABLE_CLSOCKET;BT_ENABLE_ENET;GLEW_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\enet\include;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\clsocket\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\enet\include;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\clsocket\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;opengl32.lib;glu32.lib;ws2_32.lib;..\..\lib\Debug\BulletExampleBrowserLib_Debug.lib;..\..\lib\Debug\BulletFileLoader_Debug.lib;..\..\lib\Debug\BulletWorldImporter_Debug.lib;..\..\lib\Debug\BulletSoftBody_Debug.lib;..\..\lib\Debug\BulletDynamics_Debug.lib;..\..\lib\Debug\BulletCollision_Debug.lib;..\..\lib\Debug\BulletInverseDynamicsUtils_Debug.lib;..\..\lib\Debug\BulletInverseDynamics_Debug.lib;..\..\lib\Debug\LinearMath_Debug.lib;..\..\lib\Debug\OpenGLWindow_Debug.lib;..\..\lib\Debug\gwen_Debug.lib;..\..\lib\Debug\BussIK_Debug.lib;..\..\lib\Debug\Bullet3Common_Debug.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/cmakebuild/examples/TwoJoint/Debug/App_TwoJoint_d.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>D:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/cmakebuild/examples/TwoJoint/Debug/App_TwoJoint_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\enet\include;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\clsocket\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;BT_ENABLE_CLSOCKET;BT_ENABLE_ENET;GLEW_STATIC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;BT_ENABLE_CLSOCKET;BT_ENABLE_ENET;GLEW_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\enet\include;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\clsocket\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\enet\include;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\clsocket\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;opengl32.lib;glu32.lib;ws2_32.lib;..\..\lib\Release\BulletExampleBrowserLib.lib;..\..\lib\Release\BulletFileLoader.lib;..\..\lib\Release\BulletWorldImporter.lib;..\..\lib\Release\BulletSoftBody.lib;..\..\lib\Release\BulletDynamics.lib;..\..\lib\Release\BulletCollision.lib;..\..\lib\Release\BulletInverseDynamicsUtils.lib;..\..\lib\Release\BulletInverseDynamics.lib;..\..\lib\Release\LinearMath.lib;..\..\lib\Release\OpenGLWindow.lib;..\..\lib\Release\gwen.lib;..\..\lib\Release\BussIK.lib;..\..\lib\Release\Bullet3Common.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/cmakebuild/examples/TwoJoint/Release/App_TwoJoint.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>D:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/cmakebuild/examples/TwoJoint/Release/App_TwoJoint.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\enet\include;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\clsocket\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;BT_ENABLE_CLSOCKET;BT_ENABLE_ENET;GLEW_STATIC;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;BT_ENABLE_CLSOCKET;BT_ENABLE_ENET;GLEW_STATIC;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\enet\include;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\clsocket\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\enet\include;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\clsocket\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;opengl32.lib;glu32.lib;ws2_32.lib;..\..\lib\MinSizeRel\BulletExampleBrowserLib_MinsizeRel.lib;..\..\lib\MinSizeRel\BulletFileLoader_MinsizeRel.lib;..\..\lib\MinSizeRel\BulletWorldImporter_MinsizeRel.lib;..\..\lib\MinSizeRel\BulletSoftBody_MinsizeRel.lib;..\..\lib\MinSizeRel\BulletDynamics_MinsizeRel.lib;..\..\lib\MinSizeRel\BulletCollision_MinsizeRel.lib;..\..\lib\MinSizeRel\BulletInverseDynamicsUtils_MinsizeRel.lib;..\..\lib\MinSizeRel\BulletInverseDynamics_MinsizeRel.lib;..\..\lib\MinSizeRel\LinearMath_MinsizeRel.lib;..\..\lib\MinSizeRel\OpenGLWindow_MinsizeRel.lib;..\..\lib\MinSizeRel\gwen_MinsizeRel.lib;..\..\lib\MinSizeRel\BussIK_MinsizeRel.lib;..\..\lib\MinSizeRel\Bullet3Common_MinsizeRel.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/cmakebuild/examples/TwoJoint/MinSizeRel/App_TwoJoint.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>D:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/cmakebuild/examples/TwoJoint/MinSizeRel/App_TwoJoint.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\enet\include;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\clsocket\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;BT_ENABLE_CLSOCKET;BT_ENABLE_ENET;GLEW_STATIC;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;BT_ENABLE_CLSOCKET;BT_ENABLE_ENET;GLEW_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\enet\include;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\clsocket\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\enet\include;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\clsocket\src;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;opengl32.lib;glu32.lib;ws2_32.lib;..\..\lib\RelWithDebInfo\BulletExampleBrowserLib_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\BulletFileLoader_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\BulletWorldImporter_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\BulletSoftBody_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\BulletDynamics_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\BulletCollision_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\BulletInverseDynamicsUtils_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\BulletInverseDynamics_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\LinearMath_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\OpenGLWindow_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\gwen_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\BussIK_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\Bullet3Common_RelWithDebugInfo.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/cmakebuild/examples/TwoJoint/RelWithDebInfo/App_TwoJoint.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>D:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/cmakebuild/examples/TwoJoint/RelWithDebInfo/App_TwoJoint.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\TwoJoint\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/bullet3-master/examples/TwoJoint/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HD:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/bullet3-master" "-BD:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/cmakebuild" --check-stamp-file "D:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/cmakebuild/examples/TwoJoint/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/bullet3-master/examples/TwoJoint/CMakeLists.txt;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\TwoJoint\CMakeLists.txt;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\TwoJoint\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\TwoJoint\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/bullet3-master/examples/TwoJoint/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HD:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/bullet3-master" "-BD:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/cmakebuild" --check-stamp-file "D:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/cmakebuild/examples/TwoJoint/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/bullet3-master/examples/TwoJoint/CMakeLists.txt;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\TwoJoint\CMakeLists.txt;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\TwoJoint\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\TwoJoint\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/bullet3-master/examples/TwoJoint/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HD:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/bullet3-master" "-BD:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/cmakebuild" --check-stamp-file "D:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/cmakebuild/examples/TwoJoint/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/bullet3-master/examples/TwoJoint/CMakeLists.txt;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\TwoJoint\CMakeLists.txt;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\TwoJoint\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\TwoJoint\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/bullet3-master/examples/TwoJoint/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HD:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/bullet3-master" "-BD:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/cmakebuild" --check-stamp-file "D:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/cmakebuild/examples/TwoJoint/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/GameDev/PerforceProjects/2017-2018/1608758/CT5037 - High Level/BoidSimulation/deps/bullet/bullet3-master/examples/TwoJoint/CMakeLists.txt;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\TwoJoint\CMakeLists.txt;D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\TwoJoint\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\TwoJoint\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\TwoJoint\TwoJointMain.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\IKTrajectoryHelper.cpp" />
+    <ClInclude Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\IKTrajectoryHelper.h" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ExampleBrowser\InProcessExampleBrowser.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\plugins\tinyRendererPlugin\tinyRendererPlugin.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\plugins\tinyRendererPlugin\TinyRendererVisualShapeConverter.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\OpenGLWindow\SimpleCamera.cpp" />
+    <ClInclude Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\OpenGLWindow\SimpleCamera.h" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\TinyRenderer\geometry.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\TinyRenderer\model.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\TinyRenderer\tgaimage.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\TinyRenderer\our_gl.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\TinyRenderer\TinyRenderer.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\InProcessMemory.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsClient.cpp" />
+    <ClInclude Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsClient.h" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsServer.cpp" />
+    <ClInclude Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsServer.h" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsServerExample.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsServerExampleBullet2.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\SharedMemoryInProcessPhysicsC_API.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsServerSharedMemory.cpp" />
+    <ClInclude Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsServerSharedMemory.h" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsDirect.cpp" />
+    <ClInclude Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsDirect.h" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsDirectC_API.cpp" />
+    <ClInclude Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsDirectC_API.h" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsServerCommandProcessor.cpp" />
+    <ClInclude Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsServerCommandProcessor.h" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\b3PluginManager.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsClientSharedMemory.cpp" />
+    <ClInclude Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsClientSharedMemory.h" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsClientSharedMemory_C_API.cpp" />
+    <ClInclude Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsClientSharedMemory_C_API.h" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsClientC_API.cpp" />
+    <ClInclude Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsClientC_API.h" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\Win32SharedMemory.cpp" />
+    <ClInclude Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\Win32SharedMemory.h" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PosixSharedMemory.cpp" />
+    <ClInclude Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PosixSharedMemory.h" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Utils\b3ResourcePath.cpp" />
+    <ClInclude Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Utils\b3ResourcePath.h" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Utils\RobotLoggingUtil.cpp" />
+    <ClInclude Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Utils\RobotLoggingUtil.h" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\tinyxml2\tinyxml2.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp" />
+    <ClInclude Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.h" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\stb_image\stb_image.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportURDFDemo\UrdfParser.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\MultiThreading\b3PosixThreadSupport.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\MultiThreading\b3Win32ThreadSupport.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\MultiThreading\b3ThreadSupportInterface.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsClientUDP.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsClientUDP_C_API.cpp" />
+    <ClInclude Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsClientUDP.h" />
+    <ClInclude Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsClientUDP_C_API.h" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\enet\win32.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\enet\unix.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\enet\callbacks.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\enet\compress.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\enet\host.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\enet\list.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\enet\packet.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\enet\peer.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\enet\protocol.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsClientTCP.cpp" />
+    <ClInclude Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsClientTCP.h" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsClientTCP_C_API.cpp" />
+    <ClInclude Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\SharedMemory\PhysicsClientTCP_C_API.h" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\clsocket\src\SimpleSocket.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\clsocket\src\ActiveSocket.cpp" />
+    <ClCompile Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\examples\ThirdPartyLibs\clsocket\src\PassiveSocket.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\ZERO_CHECK.vcxproj">
+      <Project>{EB4CDDCF-F01A-30F0-A7DF-1FCEE8D4F819}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\src\Bullet3Common\Bullet3Common.vcxproj">
+      <Project>{AF7DF71F-A39E-3E5F-9635-CCEEEE1CA7D9}</Project>
+      <Name>Bullet3Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>{769FD578-995E-331E-ACD0-3520ACE0F759}</Project>
+      <Name>BulletCollision</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>{CFA12EB1-88F4-3BF3-8561-3BADE87F7AE4}</Project>
+      <Name>BulletDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\ExampleBrowser\BulletExampleBrowserLib.vcxproj">
+      <Project>{72280EF6-9FE5-3201-BD5C-51A5CB1E9614}</Project>
+      <Name>BulletExampleBrowserLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\Extras\Serialize\BulletFileLoader\BulletFileLoader.vcxproj">
+      <Project>{7809D3AB-F5EF-3E49-A0B4-8EA9D4EFC961}</Project>
+      <Name>BulletFileLoader</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\src\BulletInverseDynamics\BulletInverseDynamics.vcxproj">
+      <Project>{3B4D0DA5-352D-3CBC-9BC1-F93824634B88}</Project>
+      <Name>BulletInverseDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\Extras\InverseDynamics\BulletInverseDynamicsUtils.vcxproj">
+      <Project>{7A11231D-8FAF-3198-9766-444DD1171DCD}</Project>
+      <Name>BulletInverseDynamicsUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\src\BulletSoftBody\BulletSoftBody.vcxproj">
+      <Project>{EAD2B8C7-C55D-3BAB-97D5-ED898E7DD3AB}</Project>
+      <Name>BulletSoftBody</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\Extras\Serialize\BulletWorldImporter\BulletWorldImporter.vcxproj">
+      <Project>{07A719C6-5F13-3C37-B319-4A95BDF3FC68}</Project>
+      <Name>BulletWorldImporter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\ThirdPartyLibs\BussIK\BussIK.vcxproj">
+      <Project>{97C56F30-7825-3DF0-84FE-A99039C06695}</Project>
+      <Name>BussIK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\src\LinearMath\LinearMath.vcxproj">
+      <Project>{7B5434D9-32D2-3602-9333-06949C2368D5}</Project>
+      <Name>LinearMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\OpenGLWindow\OpenGLWindow.vcxproj">
+      <Project>{F3E0F858-DA1D-33EC-9951-49944A29C159}</Project>
+      <Name>OpenGLWindow</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\cmakebuild\examples\ThirdPartyLibs\Gwen\gwen.vcxproj">
+      <Project>{2CE9D10A-43AB-3174-B152-FC4104EA9DEF}</Project>
+      <Name>gwen</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

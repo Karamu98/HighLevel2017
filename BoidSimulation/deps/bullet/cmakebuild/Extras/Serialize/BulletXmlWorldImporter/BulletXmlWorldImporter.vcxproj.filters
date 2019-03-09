@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\Extras\Serialize\BulletXmlWorldImporter\btBulletXmlWorldImporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\Extras\Serialize\BulletXmlWorldImporter\string_split.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\Extras\Serialize\BulletXmlWorldImporter\tinyxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\Extras\Serialize\BulletXmlWorldImporter\tinystr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\Extras\Serialize\BulletXmlWorldImporter\tinyxmlerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\Extras\Serialize\BulletXmlWorldImporter\tinyxmlparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\Extras\Serialize\BulletXmlWorldImporter\btBulletXmlWorldImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\Extras\Serialize\BulletXmlWorldImporter\string_split.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\Extras\Serialize\BulletXmlWorldImporter\tinyxml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\s1608758\Desktop\New folder\2017-2018\1608758\CT5037 - High Level\BoidSimulation\deps\bullet\bullet3-master\Extras\Serialize\BulletXmlWorldImporter\tinystr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F78978F8-CB4F-3688-9123-924AD3637A74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A23545A3-65E7-3690-BC37-E1BE02036A9D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

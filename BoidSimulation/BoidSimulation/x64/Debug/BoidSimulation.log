@@ -1,0 +1,155 @@
+﻿  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_glfw_gl3.cpp
+  Player.cpp
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\md5_loader\include\md5model.h(233): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(169): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(170): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(171): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+  BoxColliderComponent.cpp
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\md5_loader\include\md5model.h(233): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(169): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(170): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(171): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+  BrainComponent.cpp
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\md5_loader\include\md5model.h(233): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(169): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(170): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(171): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\boidsimulation\source\braincomponent.cpp(74): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\boidsimulation\source\braincomponent.cpp(581): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\boidsimulation\source\braincomponent.cpp(609): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\boidsimulation\source\braincomponent.cpp(678): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\boidsimulation\source\braincomponent.cpp(705): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\boidsimulation\source\braincomponent.cpp(762): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\boidsimulation\source\braincomponent.cpp(818): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\boidsimulation\source\braincomponent.cpp(918): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\boidsimulation\source\braincomponent.cpp(990): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\boidsimulation\source\braincomponent.cpp(1054): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  CameraComponent.cpp
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\md5_loader\include\md5model.h(233): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(169): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(170): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(171): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+  Component.cpp
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\md5_loader\include\md5model.h(233): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(169): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(170): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(171): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+  Boid.cpp
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\md5_loader\include\md5model.h(233): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(169): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(170): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(171): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+  Container.cpp
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\md5_loader\include\md5model.h(233): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(169): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(170): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(171): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+  Entity.cpp
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\md5_loader\include\md5model.h(233): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(169): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(170): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(171): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+  Game.cpp
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\md5_loader\include\md5model.h(233): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(169): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(170): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(171): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\boidsimulation\source\game.cpp(366): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\boidsimulation\source\game.cpp(740): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\boidsimulation\source\game.cpp(760): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\boidsimulation\source\game.cpp(761): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\boidsimulation\source\game.cpp(762): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\md5_loader\include\md5model.h(233): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(169): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(170): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(171): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+  ModelComponent.cpp
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\md5_loader\include\md5model.h(233): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(169): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(170): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(171): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\boidsimulation\source\modelcomponent.cpp(146): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  RidgedbodyComponent.cpp
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\md5_loader\include\md5model.h(233): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(169): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(170): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(171): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+  TransformComponent.cpp
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\md5_loader\include\md5model.h(233): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(169): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(170): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+d:\gamedev\perforceprojects\2017-2018\1608758\ct5037 - high level\boidsimulation\deps\bullet\bullet3-master\src\linearmath\btidebugdraw.h(171): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+  Generating Code...
+     Creating library D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\BoidSimulation.lib and object D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\BoidSimulation.exp
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewActiveTexture imported
+ModelComponent.obj : warning LNK4049: locally defined symbol __glewActiveTexture imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewBlendEquation imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewBlendFuncSeparate imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewBindBuffer imported
+Game.obj : warning LNK4049: locally defined symbol __glewBindBuffer imported
+ModelComponent.obj : warning LNK4049: locally defined symbol __glewBindBuffer imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewBufferData imported
+ModelComponent.obj : warning LNK4049: locally defined symbol __glewBufferData imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewDeleteBuffers imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewGenBuffers imported
+Game.obj : warning LNK4049: locally defined symbol __glewGenBuffers imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewAttachShader imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewBlendEquationSeparate imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewCompileShader imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewCreateProgram imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewCreateShader imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewDeleteProgram imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewDeleteShader imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewDetachShader imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewEnableVertexAttribArray imported
+Game.obj : warning LNK4049: locally defined symbol __glewEnableVertexAttribArray imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewGetAttribLocation imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewGetUniformLocation imported
+CameraComponent.obj : warning LNK4049: locally defined symbol __glewGetUniformLocation imported
+Game.obj : warning LNK4049: locally defined symbol __glewGetUniformLocation imported
+ModelComponent.obj : warning LNK4049: locally defined symbol __glewGetUniformLocation imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewLinkProgram imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewShaderSource imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewUniform1i imported
+ModelComponent.obj : warning LNK4049: locally defined symbol __glewUniform1i imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewUniformMatrix4fv imported
+CameraComponent.obj : warning LNK4049: locally defined symbol __glewUniformMatrix4fv imported
+ModelComponent.obj : warning LNK4049: locally defined symbol __glewUniformMatrix4fv imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewUseProgram imported
+CameraComponent.obj : warning LNK4049: locally defined symbol __glewUseProgram imported
+Game.obj : warning LNK4049: locally defined symbol __glewUseProgram imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewVertexAttribPointer imported
+Game.obj : warning LNK4049: locally defined symbol __glewVertexAttribPointer imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewBindSampler imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewBindVertexArray imported
+CameraComponent.obj : warning LNK4049: locally defined symbol __glewBindVertexArray imported
+Game.obj : warning LNK4049: locally defined symbol __glewBindVertexArray imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewDeleteVertexArrays imported
+imgui_impl_glfw_gl3.obj : warning LNK4049: locally defined symbol __glewGenVertexArrays imported
+Game.obj : warning LNK4049: locally defined symbol __glewGenVertexArrays imported
+CameraComponent.obj : warning LNK4049: locally defined symbol __glewUniform4fv imported
+Game.obj : warning LNK4049: locally defined symbol __glewUniform4fv imported
+framework.lib(stb_image_aug.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'framework.lib(stb_image_aug.obj)' or at 'D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\SOIL.pdb'; linking object as if no debug info
+framework.lib(SOIL.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'framework.lib(SOIL.obj)' or at 'D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\SOIL.pdb'; linking object as if no debug info
+framework.lib(image_helper.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'framework.lib(image_helper.obj)' or at 'D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\SOIL.pdb'; linking object as if no debug info
+framework.lib(image_DXT.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'framework.lib(image_DXT.obj)' or at 'D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\SOIL.pdb'; linking object as if no debug info
+framework.lib(glew.obj) : warning LNK4099: PDB 'glew_s.pdb' was not found with 'framework.lib(glew.obj)' or at 'D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\glew_s.pdb'; linking object as if no debug info
+framework.lib(egl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'framework.lib(egl_context.obj)' or at 'D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\glfw.pdb'; linking object as if no debug info
+framework.lib(wgl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'framework.lib(wgl_context.obj)' or at 'D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\glfw.pdb'; linking object as if no debug info
+framework.lib(win32_window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'framework.lib(win32_window.obj)' or at 'D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\glfw.pdb'; linking object as if no debug info
+framework.lib(win32_tls.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'framework.lib(win32_tls.obj)' or at 'D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\glfw.pdb'; linking object as if no debug info
+framework.lib(win32_time.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'framework.lib(win32_time.obj)' or at 'D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\glfw.pdb'; linking object as if no debug info
+framework.lib(win32_monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'framework.lib(win32_monitor.obj)' or at 'D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\glfw.pdb'; linking object as if no debug info
+framework.lib(win32_joystick.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'framework.lib(win32_joystick.obj)' or at 'D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\glfw.pdb'; linking object as if no debug info
+framework.lib(win32_init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'framework.lib(win32_init.obj)' or at 'D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\glfw.pdb'; linking object as if no debug info
+framework.lib(window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'framework.lib(window.obj)' or at 'D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\glfw.pdb'; linking object as if no debug info
+framework.lib(vulkan.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'framework.lib(vulkan.obj)' or at 'D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\glfw.pdb'; linking object as if no debug info
+framework.lib(monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'framework.lib(monitor.obj)' or at 'D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\glfw.pdb'; linking object as if no debug info
+framework.lib(input.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'framework.lib(input.obj)' or at 'D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\glfw.pdb'; linking object as if no debug info
+framework.lib(init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'framework.lib(init.obj)' or at 'D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\glfw.pdb'; linking object as if no debug info
+framework.lib(context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'framework.lib(context.obj)' or at 'D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\glfw.pdb'; linking object as if no debug info
+  BoidSimulation.vcxproj -> D:\GameDev\PerforceProjects\2017-2018\1608758\CT5037 - High Level\BoidSimulation\x64\Debug\BoidSimulation.exe

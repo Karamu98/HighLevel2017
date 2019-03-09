@@ -1,0 +1,6 @@
+You can create entities by pressing "File" then "Create".
+
+This will create an empty Entity at 0,0,0.
+
+You can then add components by first selecting the entity (Will be selected after creating) and clicking
+"Add Component" and then picking the wanted component.
